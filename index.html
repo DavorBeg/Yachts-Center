@@ -1,0 +1,266 @@
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title>Welcome to Yachts Centar</title>
+    <link rel="stylesheet" href="Dependences/bootstrap-3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="Dependences/jquery-3.3.1.min.js"></script>
+    <script src="Dependences/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+	<script src="jquery.js"></script>
+	
+
+</head>
+<body>
+	<div class="jumbotron">
+		<div id="naslov">
+			<h1>Yachts center</h1>
+			<center><div><button id="StartButton" type="button" class="btn btn-default btn-lg">Start now</button></div></center>
+		</div>
+	</div>
+
+<div id="main" class="container">
+	<div id="toolbar">
+		<center>
+			<div class="btn-group btn-group-justified">
+			  <a href="#" id="HomeButton" class="btn btn-transparent btn-lg">Home</a>
+			  <a href="#" id="CatalogButton" class="btn btn-transparent btn-lg">Catalog</a>
+			  <a href="#" id="GalleryButton"class="btn btn-transparent btn-lg">Gallery</a>
+			  <a href="#" id="ContactUsButton" class="btn btn-transparent btn-lg">Contact us</a>
+			</div>
+		</center>
+	</div>
+<div id="StartPage" style="display: none;">
+	<center>
+		<h1>What is your perfect yacht?</h1>
+		<div class="container" style="border: 4px #29a3a3; border-style:double; max-width: 600px; padding: 30px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);">
+			<div class="form-group" style="max-width: 300px; display: inline-block; margin-right: 15px;">
+			  <label>Name <b style="color:red;">*</b></label>
+			  <input type="text" class="form-control" id="name" placeholder="Enter your name">
+			</div>
+			<div class="form-group" style="max-width: 300px; display:inline-block;">
+			  <label>Username: <b style="color:red;">*</b></label>
+			  <input type="text" class="form-control" id="username" placeholder="Enter your username">
+			</div>
+			<div class="form-group" style="max-width: 400px;">
+			  <label>Email address: <b style="color:red;">*</b></label>
+			  <input id="email" type="email" class="form-control" aria-describedby="emailHelp" placeholder="Enter email">
+			</div>
+			<label for="sel1">Select your country:<b style="color:red;">*</b></label>
+			<select class="form-control" id="Country">
+				<option id="Croatia">Croatia</option>
+				<option id="Portugal">Portugal</option>
+				<option id="Spain">Spain</option>
+				<option id="Italy">Italy</option>
+			</select>
+			<div class="radio" style="margin-left: 5px; display:inline-block;">
+				<label><input id="sexmale" type="radio">Male</label> 
+			</div>
+			<div class="radio" style="margin-left: 5px; display:inline-block;">
+				<label><input id="sexfemale" type="radio">Female</label> 
+			</div>
+			<div class="form-group" style="margin-top:10px;">
+				<label>Say your wish ..<b style="color:red;">*</b></label>
+				<textarea class="form-control" rows="5" id="customercomment"></textarea>				
+			</div>	
+			<a href="#SendRequest" id="OrderButton" class="btn btn-transparent btn-block btn-lg" style="color:black; border: 1px solid black; margin-top: 0px;">Order it</a>			
+		</div>
+	</center>
+</div>
+<div id="HomePage">
+	<div id="Intro">
+		<center>
+			<h1>Who are we?</h1>
+			<div style="text-align:left;">
+				<b>Just random text:</b> Now is the winter of our discontent
+				Made glorious summer by this sun of York;
+				And all the clouds that lour'd upon our house
+				In the deep bosom of the ocean buried.
+				Now are our brows bound with victorious wreaths;
+				Our bruised arms hung up for monuments;
+				Our stern alarums changed to merry meetings,
+				Our dreadful marches to delightful measures.
+				Grim-visaged war hath smooth'd his wrinkled front;
+				And now, instead of mounting barded steeds
+				To fright the souls of fearful adversaries,
+				He capers nimbly in a lady's chamber
+				To the lascivious pleasing of a lute.
+				But I, that am not shaped for sportive tricks,
+				Nor made to court an amorous looking-glass;
+				I, that am rudely stamp'd, and want love's majesty
+				To strut before a wanton ambling nymph;
+				I, that am curtail'd of this fair proportion,
+				
+			</div>
+		</center>
+	</div>
+
+	<div id="Luxury">
+		<center>
+			<h1>Luxury interiors</h1>
+				<a class="img" href="#">
+				  <div class="img__overlay">Hello</div>
+				  <img class="luxuryimg" src="images/luxury.jpg"/>
+				</a>
+				<a class="img" href="#">
+				  <div class="img__overlay">There</div>
+				  <img class="luxuryimg" src="images/luxury2.jpg"/>
+				</a>		
+			<p style="text-align:left; float: left; max-width: 400px;">
+				<b>Just random text:</b>
+				Made glorious sun of the deep bosom of a lady's chamber
+				To the clouds the souls of this summer by this wrinkled front;
+				And now, instead of fearful adversaries,
+				Our discontent
+				Made to merry meetings,
+				Now are our dreadful adversaries,
+				Our bruised arms hung up for made glorious looking-glass;
+				Our stern alarums changed to court an ambling of mountings,
+				Our discontent
+				Made to delightful adversaries,
+				Our discontent
+				Made to delightful adversaries,
+				Nor monuments;
+				Our stern alarums changed to court an ambling nymph;
+				I, that am rudely stamp'd, and wanton ambling barded stern alarums changed to delightful adversaries,
+				Nor made to merry meetings,
+				Our stern alarums chamber
+				To the souls of our house
+				In the lascivious looking-glass;
+				Our dreadful marches to delight the ocean buried.
+				Nor m
+			</p>
+			
+		</center>
+	</div>
+	<div id="ModernDesign">
+		<center>
+			<h1>Modern design</h1>
+			<p style="text-align:left; float: left;">
+				<b>Just random text:</b>
+				ive tricks,
+				He capers nimbly in a lute.
+				But I, that am curtail'd of mountings,
+				He capers nimbly in a lady's chamber
+				To strut before a wanton ambling nymph;
+				I, that am rudely stamp'd, and with victorious looking-glass;
+				Our stern alarums chamber
+				To strut before a want love's majesty
+				To strut before a wanton amorous looking-glass;
+				I, that am curtail'd of the deep bosom of the clouds the souls of a lute.
+				But I, that am curtail'd of a lady's chamber
+				To the ocean buried.
+				Nor made glorious summer by this wreaths;
+				I, that am rudely stamp'd, and with victorious summer by this fair proportion,
+				m of York;
+				And now, instead of York;
+				And now, instead of this fair proportive tricks,
+				Our dreadful marches to merry meeting barded steeds
+				To strut before a wanton amorous sun of mountings,
+				Nor monuments;
+				I, that love's majesty
+				To the deep bosom of fearful adversaries,
+				He capers nimbly in a lute.
+				But I, that love's majesty
+				To the clouds that love's majesty
+				To strut before a wanton ambling barded stern alarums chamber
+				To strut before a want love's majesty
+				To the lascivious pleasing barded stern alarums changed to delight the ocean buried.
+				Nor made to court an ambling nymph;
+				I, that lour'd upon our discontent
+				Made glorious wrinkled for monuments;
+				I, that lour'd upon our bruis
+			</p>		
+		</center>
+	</div>
+</div>
+
+<div id="CatalogPage" style="display: none;">
+<center>
+			<h1>Order your perfect yacht</h1>
+				<div id="YachtCard"style="width:30%; height: 90%; display:inline-block;">
+				<center>
+					<div class="container" style="max-width: 100%; padding: 0px; margin: 0px;">
+						<img src="images/yacht1.jpeg" style="max-width: 100%; max-height: 100%;">
+						<div><h2>White yacht</h2></div>
+						<div class="DecorationLine"></div>
+						<h3> Price: <b style="color:#29a3a3;">850.000$</b></h3>
+						<h3> Length: <b style="color:#29a3a3;">25m</b></h3>
+						<a href="#" id="OrderButton" class="btn btn-transparent btn-lg" style="color:black; border: 1px solid black; margin-top: 15px;">Order it</a>
+					</div>
+				</center>
+				</div>
+				<div id="YachtCard"style="width:30%; height: 90%; display:inline-block; border:">
+				<center>
+					<div class="container" style="max-width: 100%; padding: 0px; margin: 0px;">
+						<img src="images/yacht2.jpg" style="max-width: 100%; max-height: 100%;">
+						<div><h2>Grey yacht</h2></div>
+						<div class="DecorationLine"></div>
+						<h3> Price: <b style="color:#29a3a3;">965.000$</b></h3>
+						<h3> Length: <b style="color:#29a3a3;">32m</b></h3>
+						<a href="#" id="OrderButton" class="btn btn-transparent btn-lg" style="color:black; border: 1px solid black; margin-top: 15px;">Order it</a>
+					</div>
+				</center>
+				</div>			
+
+				<div id="YachtCard"style="width:30%; height: 90%; display:inline-block;">
+				<center>
+					<div class="container" style="max-width: 100%; padding: 0px;">
+						<img src="images/yacht3.jpg" style="max-width: 100%; max-height: 100%;">
+						<div><h2>Massive yacht</h2></div>
+						<div class="DecorationLine"></div>
+						<h3> Price: <b style="color:#29a3a3;">1.300.000$</b></h3>
+						<h3> Length: <b style="color:#29a3a3;">41m</b></h3>
+						<a href="#" id="OrderButton" class="btn btn-transparent btn-lg" style="color:black; border: 1px solid black; margin-top: 15px;">Order it</a>
+					</div>
+				</center>
+				</div>
+</center>
+
+</div>
+<div id="GalleryPage" style="display: none;">
+		<center>
+			<h1>Gallery</h1>
+			<div id="GalleryContainer" class="container" style="position:relative;">
+				<img id="img1gallery"  src="images/gallery1.jpg" style="max-width: 50%; position: relative; top: 35px; left: -100px;">
+				<img id="img2gallery" src="images/gallery2.jpg" style="max-width: 50%; position: relative; bottom: 25px; right: -100px;">
+				<img id="img3gallery"  src="images/gallery3.jpg" style="max-width: 50%; position: relative; bottom: 100px;">
+			</div>
+		</center>
+</div>
+<div id="ContactUsPage" style="display: none;">
+		<center>
+			<h1>Contact us ..</h1>
+		  <table class="table table-hover" style="max-width: 500px;">
+			  <tr>
+				<th>Email:</th>
+				<th>davor.beg@gmail.com <span class="glyphicon glyphicon-envelope"></span></th>
+			  </tr>			
+			  <tr>
+				<th>GSM: </td>
+				<th>+385 95 833 8318 <span class="glyphicon glyphicon-earphone"></span></td>
+			  </tr>
+			  <tr>
+				<th>Instagram: </td>
+				<th>@davor_begovic <span class="glyphicon glyphicon-user"></span></td></td>
+			  </tr>
+			  <tr>
+				<th>Github: </td>
+				<th><a href="https://github.com/TroloveCro">Click me! </a> <span class="glyphicon glyphicon-console"></span></td></td>
+			  </tr>
+			  </thead>
+			</tbody>
+		  </table>
+		</center>
+</div>
+<div id="bottom">
+<center>
+<a href="https://www.facebook.com/"><img src="images/facebook-icon.png" style="width: 50px; position:relative;"/></a>
+<a href="https://twitter.com/"><img src="images/twitter-icon.png" style="width: 35px; position:relative;"/></a>
+<a href="https://www.instagram.com/?hl=hr"><img src="images/instagram-icon.png" style="width: 40px; position:relative; margin-left: 10px;"/></a>
+</center>
+</div>
+
+</div>
+
+</body>
+</html>
