@@ -10,7 +10,7 @@
 				page[0].show(1000);
 				for (i = 0; i <= 3; i++)
 				{
-					if(i != 0) { page[i].hide(1000); }
+					if(i != 0) { page[i].hide(1000); $("#StartPage").hide(1000); }
 				}
 			}
 		});
@@ -21,7 +21,7 @@
 				page[1].show(1000);	
 				for (i = 0; i <= 3; i++)
 				{
-					if(i != 1) { page[i].hide(1000); }
+					if(i != 1) { page[i].hide(1000); $("#StartPage").hide(1000); }
 				}
 			}
 		});
@@ -32,7 +32,7 @@
 				page[2].show(1000);	
 				for (i = 0; i <= 3; i++)
 				{
-					if(i != 2) { page[i].hide(1000); }
+					if(i != 2) { page[i].hide(1000); $("#StartPage").hide(1000); }
 				}
 			}
 		});
@@ -43,7 +43,7 @@
 				page[3].show(1000);	
 				for (i = 0; i <= 3; i++)
 				{
-					if(i != 3) { page[i].hide(1000); }
+					if(i != 3) { page[i].hide(1000); $("#StartPage").hide(1000); }
 				}
 			}			
 		});
